@@ -19,12 +19,19 @@ namespace SumatorWinForm
 
         private void buttonCalculate_Click(object sender, EventArgs e)
         {
-            int numA = int.Parse(textBox1.Text);
-            int numB = int.Parse(textBox2.Text);
+            try
+            {
+                var num1 = decimal.Parse(this.textBox1.Text);
+                var num2 = decimal.Parse(this.textBox2.Text);
 
-            int sum = numA + numB;
+                var sum = num1 + num2;
 
-            textBoxSum.Text = sum.ToString();
+                textBoxSum.Text = sum.ToString();
+            }
+            catch (Exception)
+            {
+                textBoxSum.Text = "error";
+            }
         }
     }
 }
