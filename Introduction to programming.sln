@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{6327E660-5338-4896-AE48-EA198A7FBB45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introduction\Introduction.csproj", "{6327E660-5338-4896-AE48-EA198A7FBB45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentations", "Presentations\Presentations.csproj", "{73311FE2-3DD3-4855-A5C7-AE80FD64F134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentations", "Presentations\Presentations.csproj", "{73311FE2-3DD3-4855-A5C7-AE80FD64F134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumatorWinForm", "SumatorWinForm\SumatorWinForm.csproj", "{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{73311FE2-3DD3-4855-A5C7-AE80FD64F134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73311FE2-3DD3-4855-A5C7-AE80FD64F134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73311FE2-3DD3-4855-A5C7-AE80FD64F134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
