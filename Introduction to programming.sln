@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introductio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentations", "Presentations\Presentations.csproj", "{73311FE2-3DD3-4855-A5C7-AE80FD64F134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumatorWinForm", "SumatorWinForm\SumatorWinForm.csproj", "{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumatorWinForm", "SumatorWinForm\SumatorWinForm.csproj", "{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumatorWebApp", "SumatorWebApp\SumatorWebApp.csproj", "{95C18EEF-F784-4AF0-AF98-DB3F872E89F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_002_Operators", "Lesson_002_Operators\Lesson_002_Operators.csproj", "{FBBDA123-EE67-4E8A-8170-1735C152094D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5EBD38C-37D3-4ADB-95FB-38AD7F5B98BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C18EEF-F784-4AF0-AF98-DB3F872E89F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C18EEF-F784-4AF0-AF98-DB3F872E89F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C18EEF-F784-4AF0-AF98-DB3F872E89F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C18EEF-F784-4AF0-AF98-DB3F872E89F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBDA123-EE67-4E8A-8170-1735C152094D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBDA123-EE67-4E8A-8170-1735C152094D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBDA123-EE67-4E8A-8170-1735C152094D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBDA123-EE67-4E8A-8170-1735C152094D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
