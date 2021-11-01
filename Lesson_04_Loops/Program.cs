@@ -13,7 +13,28 @@ namespace Lesson_04_Loops
             // Piramide();
             // Factoriel_02();
             // Ninetything();
-            Diamond();
+            // Diamond();
+
+            ReverseNumber();
+        }
+
+        private static void ReverseNumber()
+        {
+            Console.Write("Please enter a number: ");
+            int number = int.Parse(Console.ReadLine());
+
+            int result = 0;
+
+            while (number > 0)
+            {
+                int reminder = number % 10;
+                number = number / 10;
+
+                result = result * 10 + reminder;
+            }
+
+            Console.Write("The reverse number is: ");
+            Console.WriteLine(result);
         }
 
         private static void Diamond()
