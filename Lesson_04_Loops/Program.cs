@@ -12,7 +12,103 @@ namespace Lesson_04_Loops
             // TenNumbers();
             // Piramide();
             // Factoriel_02();
-            Ninetything();
+            // Ninetything();
+            // Diamond();
+
+            ReverseNumber();
+        }
+
+        private static void ReverseNumber()
+        {
+            Console.Write("Please enter a number: ");
+            int number = int.Parse(Console.ReadLine());
+
+            int result = 0;
+
+            while (number > 0)
+            {
+                int reminder = number % 10;
+                number = number / 10;
+
+                result = result * 10 + reminder;
+            }
+
+            Console.Write("The reverse number is: ");
+            Console.WriteLine(result);
+        }
+
+        private static void Diamond()
+        {
+            int i, j, n;
+
+            Console.Write("\n\n");
+            Console.Write(" Display the pattern in which first and last number of each row will be 1:\n");
+            Console.Write("----------------------------------------------------------------------------");
+            Console.Write("\n\n");
+
+            Console.Write("Input number of rows : ");
+            n = Convert.ToInt32(Console.ReadLine());
+            for (i = 0; i <= n; i++)
+            {
+                /* print blank spaces */
+                for (j = 1; j <= n - i; j++)
+                    Console.Write(" ");
+                /* Display number in ascending order upto middle*/
+                for (j = 1; j <= i; j++)
+                    Console.Write("{0}", j);
+
+                /* Display  number in reverse order after middle */
+                for (j = i - 1; j >= 1; j--)
+                    Console.Write("{0}", j);
+
+                Console.Write("\n");
+            }
+
+            for (i = n - 1; i >= 0; i--)
+            {
+                /* print blank spaces */
+                for (j = 1; j <= n - i; j++)
+                    Console.Write(" ");
+                /* Display number in ascending order upto middle*/
+                for (j = 1; j <= i; j++)
+                    Console.Write("{0}", j);
+
+                /* Display  number in reverse order after middle */
+                for (j = i - 1; j >= 1; j--)
+                    Console.Write("{0}", j);
+
+                Console.Write("\n");
+            }
+        }
+
+        private static void Diamond2()
+        {
+            int i, j, r;
+
+            Console.Write("\n\n");
+            Console.Write("Display the pattern like diamond:\n");
+            Console.Write("-----------------------------------");
+            Console.Write("\n\n");
+
+            Console.Write("Input number of rows (half of the diamond) :");
+            r = Convert.ToInt32(Console.ReadLine());
+            for (i = 0; i <= r; i++)
+            {
+                for (j = 1; j <= r - i; j++)
+                    Console.Write(" ");
+                for (j = 1; j <= 2 * i - 1; j++)
+                    Console.Write("*");
+                Console.Write("\n");
+            }
+
+            for (i = r - 1; i >= 1; i--)
+            {
+                for (j = 1; j <= r - i; j++)
+                    Console.Write(" ");
+                for (j = 1; j <= 2 * i - 1; j++)
+                    Console.Write("*");
+                Console.Write("\n");
+            }
         }
 
         private static void Ninetything()
