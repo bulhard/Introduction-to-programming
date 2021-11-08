@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introduction\Introduction.csproj", "{6327E660-5338-4896-AE48-EA198A7FBB45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_01_Introduction", "Introduction\Lesson_01_Introduction.csproj", "{6327E660-5338-4896-AE48-EA198A7FBB45}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentations", "Presentations\Presentations.csproj", "{73311FE2-3DD3-4855-A5C7-AE80FD64F134}"
 EndProject
@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_02_Operators", "Less
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_03_Conditional_Statements", "Lesson_03_Conditional_Statements\Lesson_03_Conditional_Statements.csproj", "{91779A7F-D1F9-4C48-944B-6DF47E596DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_04_Loops", "Lesson_04_Loops\Lesson_04_Loops.csproj", "{46D98F5F-E49F-4D55-97AB-7D621CA389AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_04_Loops", "Lesson_04_Loops\Lesson_04_Loops.csproj", "{46D98F5F-E49F-4D55-97AB-7D621CA389AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_04_Strings_and_Arrays", "Lesson_04_Strings_and_Arrays\Lesson_04_Strings_and_Arrays.csproj", "{4F9E52D9-6FC9-4F97-8117-4FF02D9C321F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{46D98F5F-E49F-4D55-97AB-7D621CA389AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D98F5F-E49F-4D55-97AB-7D621CA389AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D98F5F-E49F-4D55-97AB-7D621CA389AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9E52D9-6FC9-4F97-8117-4FF02D9C321F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9E52D9-6FC9-4F97-8117-4FF02D9C321F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9E52D9-6FC9-4F97-8117-4FF02D9C321F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9E52D9-6FC9-4F97-8117-4FF02D9C321F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
