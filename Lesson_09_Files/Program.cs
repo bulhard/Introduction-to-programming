@@ -12,11 +12,13 @@ namespace Lesson_09_Files
             Console.WriteLine("Enter working folder:");
             string workingFolder = Console.ReadLine(); // Copy/paste some existing folder, as there is no check if that folder exists.
 
-            TestFileHelper(workingFolder);
+            //TestFileHelper(workingFolder);
 
-            NumberOfWords(workingFolder);
+            //NumberOfWords(workingFolder);
 
-            TestArrayHelper(workingFolder);
+            //TestArrayHelper(workingFolder);
+
+            Exercise2.ProcessStudents(workingFolder);
         }
 
         private static void TestFileHelper(string workingFolder)
