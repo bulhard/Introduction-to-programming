@@ -18,7 +18,9 @@ namespace Lesson_09_Files
 
             //TestArrayHelper(workingFolder);
 
-            Exercise2.ProcessStudents(workingFolder);
+            Exercise1.ProcessAllCalculations(workingFolder);
+
+            // Exercise2.ProcessStudents(workingFolder);
         }
 
         private static void TestFileHelper(string workingFolder)
