@@ -1,0 +1,25 @@
+{
+  "ID": 3,
+  "Date": "2021-12-10T18:18:09.5395404+02:00",
+  "Total": 50055,
+  "Products": [
+    {
+      "ID": 1,
+      "Name": "Car",
+      "Price": 50000,
+      "Quantity": 2
+    },
+    {
+      "ID": 1,
+      "Name": "Book",
+      "Price": 50,
+      "Quantity": 22
+    },
+    {
+      "ID": 1,
+      "Name": "Socks",
+      "Price": 5,
+      "Quantity": 1
+    }
+  ]
+}

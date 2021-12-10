@@ -10,7 +10,7 @@ namespace Lesson_09_Files
         private static void Main(string[] args)
         {
             Console.WriteLine("Enter working folder:");
-            string workingFolder = Console.ReadLine(); // Copy/paste some existing folder, as there is no check if that folder exists.
+            string workingFolder = Console.ReadLine(); // Copy/paste your solution folder. There is no check if that folder exists.
 
             //TestFileHelper(workingFolder);
 
@@ -18,9 +18,11 @@ namespace Lesson_09_Files
 
             //TestArrayHelper(workingFolder);
 
-            Exercise1.ProcessAllCalculations(workingFolder);
+            // Exercise1.ProcessAllCalculations(workingFolder);
 
             // Exercise2.ProcessStudents(workingFolder);
+
+            Exercise3.PlayWithOrders(workingFolder);
         }
 
         private static void TestFileHelper(string workingFolder)

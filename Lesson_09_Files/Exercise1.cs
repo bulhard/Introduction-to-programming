@@ -78,8 +78,6 @@ namespace Lesson_09_Files
 
         private static string[] ReadInputFile(string workingFolder)
         {
-            List<Student> studentsList = new List<Student>();
-
             string inputFile = Path.Combine(workingFolder, "MathCalc", "input.txt");
 
             string[] calculationLines = File.ReadAllLines(inputFile);
